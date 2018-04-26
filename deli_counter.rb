@@ -15,10 +15,12 @@ end
 
 def take_a_number(array,name)
   linelength = 0
-  
+  queueno = array.length + 1
   if array.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
     array << name
+  else
+    puts "Welcome #{name}. You are number #{queueno} in line."
   end
   array
 end
