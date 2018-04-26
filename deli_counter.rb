@@ -22,3 +22,7 @@ def take_a_number(array,name)
   end
   array
 end
+
+def now_serving()
+
+end
