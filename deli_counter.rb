@@ -14,7 +14,6 @@ def line(people)
 end
 
 def take_a_number(array,name)
-  queueno = array.length
   if array.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
     array << name
