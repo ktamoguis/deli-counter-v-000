@@ -21,6 +21,7 @@ def take_a_number(array,name)
     array << name
   else
     puts "Welcome #{name}. You are number #{queueno} in line."
+    array << name
   end
   array
 end
