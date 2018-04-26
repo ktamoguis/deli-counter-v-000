@@ -18,6 +18,8 @@ def take_a_number(array,name)
   queueno = array.length + 1
   if array.index(name) == nil
     puts "Welcome, #{name}. You are number #{queueno} in line."
+    array << name
   else
   end
+  array
 end
