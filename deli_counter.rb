@@ -14,7 +14,6 @@ def line(people)
 end
 
 def take_a_number(array,name)
-  linelength = 0
   queueno = array.length + 1
   if array.index(name) == nil
     puts "Welcome, #{name}. You are number #{queueno} in line."
